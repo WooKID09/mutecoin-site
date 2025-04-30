@@ -1,55 +1,61 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>MUTECOIN</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
       background-color: #0a0a0a;
-      color: #fff;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
       text-align: center;
-      padding: 50px;
+      padding-top: 50px;
     }
-    img {
-      width: 180px;
-      border-radius: 50%;
+    .logo {
+      width: 60px;
+      margin-bottom: 10px;
     }
-    .btn {
-      background-color: #14b8a6;
-      color: white;
-      padding: 15px 30px;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 18px;
+    .contract-box {
+      background-color: #1c1c1c;
       border-radius: 8px;
-      display: inline-block;
-      margin-top: 30px;
-    }
-    .btn:hover {
-      background-color: #0d9488;
-    }
-    .contract {
-      background-color: #1e1e1e;
       padding: 15px;
-      border-radius: 8px;
-      margin-top: 20px;
+      margin: 20px auto;
+      width: fit-content;
+    }
+    .button {
+      background-color: #00c4b3;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none;
       display: inline-block;
+      margin-top: 10px;
+    }
+    .button:hover {
+      background-color: #00a69e;
     }
   </style>
 </head>
 <body>
-  <img src="mutecoin.png" alt="MUTECOIN Logo" />
+
+  <img src="mutecoin.png" alt="MUTECOIN Logo" class="logo" />
   <h1>MUTECOIN</h1>
-  <p><strong>The silent meme-coin of resistance.</strong></p>
-  <p>Создан глухонемым как крипто-провокация молчаливого сопротивления. Без слов. Только крипта.</p>
-  <div class="contract">
-    <p><strong>Контракт:</strong><br>0x74054EF192f703C810792B19ed11b19eb46243c4</p>
+  <h3>The silent meme-coin of resistance.</h3>
+
+  <p>Создан глухонемым как крипто-провокация молчаливого сопротивления.<br>Без слов. Только крипта.</p>
+
+  <div class="contract-box">
+    <strong>Контракт:</strong><br>
+    0x74054EF192f703C810792B19ed11b19eb46243c4
   </div>
-  <a class="btn" href="https://pancakeswap.finance/swap?outputCurrency=0x74054EF192f703C810792B19ed11b19eb46243c4" target="_blank">
+
+  <a class="button" href="https://pancakeswap.finance/swap?outputCurrency=0x74054EF192f703C810792B19ed11b19eb46243c4" target="_blank">
     Купить на PancakeSwap
   </a>
+
 </body>
 </html>
